@@ -1,0 +1,8 @@
+.tablerow:hover {
+    cursor: pointer;
+}
+
+.sortBtn:hover {
+    cursor: pointer;
+    background-color: rgb(223, 219, 219);
+}
