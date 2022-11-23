@@ -2,6 +2,7 @@
 import styles from "./countryTable.module.css";
 import { useState } from "react";
 import Link from "next/Link";
+import Image from "next/image";
 
 const orderBy=(countries,direction)=>{
 if(direction==="asc"){
@@ -64,7 +65,7 @@ const CountryTables = ({ country }) => {
               <><tr key={index} className={styles.tablerow}>
     
                 <td>{index+1}</td>
-                 <td scope="row"><Link  key={index} href={`/country/${countries.ccn3}`} ><img src={countries.flags.png} style={{'width':"50px",'height':'50px'}}/></Link></td>
+                 <td scope="row"><Link  key={index} href={`/country/${countries.ccn3}`} ><Image src={`${countries.flags.png}`} width="50" height="50"></Image></Link></td>
                  <td><Link  key={index} href={`/country/${countries.ccn3}`} ><span>{countries.name.common},{countries.capital}</span></Link></td>
                  <td>{countries.population}</td>
                  <td>{countries.area}</td>
