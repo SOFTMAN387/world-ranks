@@ -1,4 +1,4 @@
-import Link from 'next/Link';
+import Link from 'next/link';
 import React from 'react';
 import Layout from '../../components/layout/Layout';
 import styles from "./country.module.css";

@@ -1,7 +1,7 @@
 
 import styles from "./countryTable.module.css";
 import { useState } from "react";
-import Link from "next/Link";
+import Link from "next/link";
 import Image from "next/image";
 
 const orderBy = (countries, direction) => {

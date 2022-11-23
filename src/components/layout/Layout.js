@@ -1,7 +1,7 @@
 import styles from "./layout.module.css";
 import Head from 'next/head';
 // import SearchInputBox from "../serachInput/SearchInput";
-import Link from "next/Link";
+import Link from "next/link";
 // import CountryTables from "../countryTables/CountryTables";
 const Layout = ({ children,title="Softman" }) => {
     return (
