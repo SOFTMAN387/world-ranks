@@ -14,7 +14,7 @@ const Country = ({ countriesDetails }) => {
 
             <div className={styles.imgContainer}>
                 <Link href={`/`}>
-                    <Image  src={countriesDetails[0].flags.png} width="250" height="250"></Image>
+                    <Image src={countriesDetails[0].flags.png} width="250" height="250" alt="country-details-img" />
                 </Link>
             </div>
 
